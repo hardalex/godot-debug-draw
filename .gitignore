@@ -1,0 +1,58 @@
+# ----------------------------------------------------------------------
+# AI
+# ----------------------------------------------------------------------
+
+.agents/skills/
+AGENTS.md
+EXAMPLE-WORKFLOW.md
+
+# ----------------------------------------------------------------------
+# Godot 4+
+# ----------------------------------------------------------------------
+
+# Editor data (auto-generated, do not commit)
+.godot/
+
+# Imported assets (auto-generated from source files in the project)
+.import/
+
+# Export/build outputs
+android/
+ios/
+web/
+macos/
+windows/
+linux/
+
+# Export presets with sensitive info (uncomment if needed)
+# export_presets.cfg
+
+# ----------------------------------------------------------------------
+# OS junk
+# ----------------------------------------------------------------------
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ----------------------------------------------------------------------
+# Godot-specific
+# ----------------------------------------------------------------------
+
+# Mono/CLI build artifacts (if using C#)
+.mono/
+*.mono
+*.exe
+*.dll
+*.pdb
+
+# GDScript transient files
+*.uid
+
+# gdUnit4 test reports
+reports/

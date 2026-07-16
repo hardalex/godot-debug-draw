@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+if ! command -v just >/dev/null 2>&1; then
+  echo "error: just is not installed. Install it with: cargo install just" >&2
+  exit 1
+fi
+
+echo "Running pre-commit checks: just check"
+just check

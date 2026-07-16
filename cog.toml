@@ -1,0 +1,61 @@
+# Cocogitto configuration for godot-debug-draw
+# Conventional Commits validation and automatic changelog
+
+from_latest_tag = false
+ignore_merge_commits = true
+ignore_fixup_commits = true
+disable_changelog = false
+disable_bump_commit = false
+tag_prefix = "v"
+skip_ci = "[skip ci]"
+skip_untracked = false
+pre_bump_hooks = []
+post_bump_hooks = []
+pre_package_bump_hooks = []
+post_package_bump_hooks = []
+
+scopes = [
+    "scene",
+    "script",
+    "asset",
+    "addon",
+    "physics",
+    "render",
+    "ui",
+    "input",
+    "audio",
+    "config",
+    "debug",
+    "docs",
+    "draw",
+    "examples",
+    "project",
+    "release",
+]
+
+[git_hooks.commit-msg]
+script = '''
+#!/bin/sh
+cog verify --file "$1"
+'''
+
+
+[commit_types]
+feat = { changelog_title = "Features" }
+fix = { changelog_title = "Bug Fixes" }
+docs = { changelog_title = "Documentation" }
+style = { changelog_title = "Code Style" }
+refactor = { changelog_title = "Refactoring" }
+test = { changelog_title = "Tests" }
+chore = { changelog_title = "Tooling and Configuration" }
+perf = { changelog_title = "Performance Improvements" }
+ci = { changelog_title = "Continuous Integration" }
+revert = { changelog_title = "Reverts" }
+build = { changelog_title = "Build System" }
+
+[changelog]
+path = "CHANGELOG.md"
+template = "changelog.tera"
+authors = []
+
+[bump_profiles]
