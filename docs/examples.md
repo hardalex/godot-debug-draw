@@ -2,7 +2,7 @@
 
 The `examples/` scenes are visual references for the public API. They are curated examples, not exhaustive test matrices.
 
-Related: [Getting Started](getting-started.md), [API Reference](api-reference.md), [Example Workflow](../EXAMPLE-WORKFLOW.md).
+Related: [Getting Started](getting-started.md), [API Reference](api-reference.md).
 
 ## Example Scene Families
 
@@ -47,7 +47,7 @@ Most example scenes include:
 
 ## Updating Examples
 
-Before editing or adding an example, read [Example Workflow](../EXAMPLE-WORKFLOW.md). Key rules:
+Key rules for editing or adding an example:
 
 - Treat the `.gd` script as the source of truth for layout and draw calls.
 - Prefer representative samples to exhaustive API combinations.
