@@ -1,21 +1,19 @@
-[gd_scene format=3 uid="uid://b03y2gl65txyh"]
+[gd_scene load_steps=5 format=3]
 
-[ext_resource type="Script" uid="uid://8hgqu27rcpjy" path="res://examples/index.gd" id="1"]
+[ext_resource type="Script" path="res://examples/demo.gd" id="1"]
 [ext_resource type="PackedScene" path="res://entities/free_camera.tscn" id="2"]
 [ext_resource type="PackedScene" path="res://entities/endless_grid_3d.tscn" id="3"]
 [ext_resource type="PackedScene" path="res://addons/debug_draw/debug_draw_3d.tscn" id="4"]
 
-[node name="Index" type="Node3D" unique_id=790563608]
+[node name="Demo" type="Node3D"]
 script = ExtResource("1")
 
-[node name="FreeCamera" parent="." unique_id=409349263 instance=ExtResource("2")]
+[node name="FreeCamera" parent="." instance=ExtResource("2")]
 transform = Transform3D(0.70710677, -0.35355338, 0.61237246, 0, 0.8660254, 0.5, -0.70710677, -0.35355338, 0.61237246, 3, 3, 3)
 initial_distance = 5.196
 
-[node name="EndlessGrid3D" parent="." unique_id=416983590 instance=ExtResource("3")]
+[node name="EndlessGrid3D" parent="." instance=ExtResource("3")]
 thin_line_color = Color(0.33847278, 0.33847293, 0.33847287, 0.5019608)
 thick_line_color = Color(0.46034712, 0.46034718, 0.460347, 0.7019608)
 
-[node name="DebugDraw3D" parent="." unique_id=664215233 instance=ExtResource("4")]
-back_fade_start = 1.7453292519943295
-back_fade_transition = 0.3490658503988659
+[node name="DebugDraw3D" parent="." instance=ExtResource("4")]

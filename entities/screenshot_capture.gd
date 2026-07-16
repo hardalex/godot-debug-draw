@@ -1,5 +1,5 @@
 extends Node
-## Captures the parent scene at 1080p when P is pressed.
+## Captures the current scene at 1080p when P is pressed.
 
 const SCREENSHOT_SIZE := Vector2i(1920, 1080)
 const SCREENSHOT_DIRECTORY := "res://media"
@@ -25,11 +25,7 @@ func _capture() -> void:
     _is_capturing = false
     return
 
-  var parent_scene := get_parent()
-  var scene_copy := parent_scene.duplicate()
-  var capture_copy := scene_copy.get_node_or_null(parent_scene.get_path_to(self))
-  if capture_copy:
-    capture_copy.free()
+  var scene_copy := get_tree().current_scene.duplicate()
 
   var screenshot_viewport := SubViewport.new()
   screenshot_viewport.size = SCREENSHOT_SIZE

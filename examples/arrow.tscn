@@ -21,10 +21,9 @@ thin_line_color = Color(0.33847278, 0.33847293, 0.33847287, 0.5019608)
 thick_line_color = Color(0.46034712, 0.46034718, 0.460347, 0.7019608)
 
 [node name="DebugDraw3D" parent="." unique_id=1594636193 instance=ExtResource("4")]
-back_fade_start = 1.7453292519943295
-back_fade_transition = 0.3490658503988659
 
 [node name="UI" type="CanvasLayer" parent="." unique_id=1610580310]
+visible = false
 
 [node name="InfoLabel" type="Label" parent="UI" unique_id=2043990981]
 offset_left = 12.0

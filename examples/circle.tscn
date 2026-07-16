@@ -1,4 +1,4 @@
-[gd_scene format=3]
+[gd_scene format=3 uid="uid://d10k401br8soo"]
 
 [ext_resource type="Script" uid="uid://dsbg2sj0a6lvg" path="res://examples/circle.gd" id="1"]
 [ext_resource type="PackedScene" path="res://entities/free_camera.tscn" id="2"]
@@ -23,6 +23,7 @@ thick_line_color = Color(0.46034712, 0.46034718, 0.460347, 0.7019608)
 [node name="DebugDraw3D" parent="." unique_id=1016874856 instance=ExtResource("4")]
 
 [node name="UI" type="CanvasLayer" parent="." unique_id=1481858755]
+visible = false
 
 [node name="InfoLabel" type="Label" parent="UI" unique_id=1659801234]
 offset_left = 12.0
