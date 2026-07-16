@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/debug_draw/debug_draw_3d.gd" id="1"]
+
+[node name="DebugDraw3D" type="Node3D"]
+script = ExtResource("1")
+
+[node name="RectMesh" type="MultiMeshInstance3D" parent="."]
+
+[node name="BoxMesh" type="MultiMeshInstance3D" parent="."]
+
+[node name="SphereMesh" type="MultiMeshInstance3D" parent="."]
+
+[node name="CylinderMesh" type="MultiMeshInstance3D" parent="."]
+
+[node name="ConeMesh" type="MultiMeshInstance3D" parent="."]
+
+[node name="LineMesh" type="MultiMeshInstance3D" parent="."]
+
+[node name="NormalLineMesh" type="MultiMeshInstance3D" parent="."]
+
+[node name="JointMesh" type="MultiMeshInstance3D" parent="."]
+
+[node name="NormalJointMesh" type="MultiMeshInstance3D" parent="."]
