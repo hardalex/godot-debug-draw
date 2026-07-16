@@ -1,6 +1,6 @@
 # Concepts
 
-Related: [[getting-started|Getting Started]], [[api-reference|API Reference]], [[rendering-architecture|Rendering Architecture]].
+Related: [Getting Started](getting-started.md), [API Reference](api-reference.md), [Rendering Architecture](rendering-architecture.md).
 
 ## Draw Call Lifetime
 

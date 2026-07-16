@@ -2,7 +2,7 @@
 
 The `examples/` scenes are visual references for the public API. They are curated examples, not exhaustive test matrices.
 
-Related: [[getting-started|Getting Started]], [[api-reference|API Reference]], [[EXAMPLE-WORKFLOW|Example Workflow]].
+Related: [Getting Started](getting-started.md), [API Reference](api-reference.md), [Example Workflow](../EXAMPLE-WORKFLOW.md).
 
 ## Example Scene Families
 
@@ -47,7 +47,7 @@ Most example scenes include:
 
 ## Updating Examples
 
-Before editing or adding an example, read [[EXAMPLE-WORKFLOW|Example Workflow]]. Key rules:
+Before editing or adding an example, read [Example Workflow](../EXAMPLE-WORKFLOW.md). Key rules:
 
 - Treat the `.gd` script as the source of truth for layout and draw calls.
 - Prefer representative samples to exhaustive API combinations.
@@ -57,4 +57,4 @@ Before editing or adding an example, read [[EXAMPLE-WORKFLOW|Example Workflow]].
 
 ## API Coverage
 
-The current examples cover every public shape family listed in [[api-reference|API Reference]]. When adding an API, add or update the closest shape-family example and keep it focused on the new behavior.
+The current examples cover every public shape family listed in [API Reference](api-reference.md). When adding an API, add or update the closest shape-family example and keep it focused on the new behavior.

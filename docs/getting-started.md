@@ -2,7 +2,7 @@
 
 Use `DebugDraw3D` as a scene node rather than a global singleton. Draw calls are transient, so submit them from `_process()` every frame they should remain visible.
 
-Related: [[concepts|Concepts]], [[api-reference|API Reference]], [[examples|Examples]].
+Related: [Concepts](concepts.md), [API Reference](api-reference.md), [Examples](examples.md).
 
 ## Add the Node
 
@@ -56,4 +56,4 @@ The example scenes follow this pattern:
 3. Submit debug shapes in `_process()`.
 4. Use HiDPI-aware window sizing with a 1280×720 design viewport.
 
-See `examples/index.gd` and [[examples#Example Scene Families|Example Scene Families]].
+See `examples/index.gd` and [Example Scene Families](examples.md#example-scene-families).

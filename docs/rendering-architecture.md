@@ -2,7 +2,7 @@
 
 `DebugDraw3D` renders transient debug geometry through reusable MultiMesh renderers. Its public API is defined in `addons/debug_draw/debug_draw_3d.gd`.
 
-Related: [[concepts|Concepts]], [[api-reference|API Reference]], [[getting-started|Getting Started]].
+Related: [Concepts](concepts.md), [API Reference](api-reference.md), [Getting Started](getting-started.md).
 
 ## Node Layout
 

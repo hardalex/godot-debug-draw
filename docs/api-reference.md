@@ -2,7 +2,7 @@
 
 This page groups the public `DebugDraw3D` API by use case. See `addons/debug_draw/debug_draw_3d.gd` for exact signatures.
 
-Related: [[concepts|Concepts]], [[getting-started|Getting Started]], [[rendering-architecture|Rendering Architecture]].
+Related: [Concepts](concepts.md), [Getting Started](getting-started.md), [Rendering Architecture](rendering-architecture.md).
 
 ## Node Controls
 
