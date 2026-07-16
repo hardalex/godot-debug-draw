@@ -1,5 +1,7 @@
 # Godot Debug Draw
 
+<img src="media/thumbnail.webp" alt="Debug Draw thumbnail" width="800">
+
 Reusable in-scene 3D debug drawing for Godot 4.7.
 
 `DebugDraw3D` submits transient draw commands each frame and renders wire shapes, dashed and normal-aware lines, joints, filled rects, and solid primitives with `MultiMeshInstance3D` nodes and shaders.
@@ -12,6 +14,40 @@ Reusable in-scene 3D debug drawing for Godot 4.7.
 - Screen-space line widths and configurable depth bias.
 - Curated example scenes for every public shape family.
 - No external runtime dependencies.
+
+## Screenshots
+
+<img src="media/feat-dash.webp" alt="Dashed lines" width="600">
+
+<img src="media/feat-joint.webp" alt="Line joints" width="600">
+
+<img src="media/feat-normal.webp" alt="Normal-aware lines" width="600">
+
+<img src="media/draw-line.webp" alt="Lines" width="600">
+
+<img src="media/draw-arrow.webp" alt="Arrows" width="600">
+
+<img src="media/draw-axes.webp" alt="Axes" width="600">
+
+<img src="media/draw-arc.webp" alt="Arcs" width="600">
+
+<img src="media/draw-circle.webp" alt="Circles" width="600">
+
+<img src="media/draw-curve.webp" alt="Curves" width="600">
+
+<img src="media/draw-grid.webp" alt="Grids" width="600">
+
+<img src="media/draw-rect.webp" alt="Rects" width="600">
+
+<img src="media/draw-box.webp" alt="Boxes" width="600">
+
+<img src="media/draw-sphere.webp" alt="Spheres" width="600">
+
+<img src="media/draw-cone.webp" alt="Cones" width="600">
+
+<img src="media/draw-cylinder.webp" alt="Cylinders" width="600">
+
+<img src="media/draw-capsule.webp" alt="Capsules" width="600">
 
 ## Installation
 
