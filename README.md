@@ -2,7 +2,7 @@
 
 <img src="media/thumbnail.webp" alt="Debug Draw thumbnail" width="800">
 
-Reusable in-scene 3D debug drawing for Godot 4.7.
+Reusable in-scene 3D debug drawing for Godot 4.x.
 
 `DebugDraw3D` submits transient draw commands each frame and renders wire shapes, dashed and normal-aware lines, joints, filled rects, and solid primitives with `MultiMeshInstance3D` nodes and shaders.
 

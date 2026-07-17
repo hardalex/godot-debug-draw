@@ -1,10 +1,10 @@
 # Debug Draw
 
-`DebugDraw3D` is a reusable in-scene 3D debug drawing node for Godot 4.7. It renders transient draw commands through `MultiMeshInstance3D` nodes and shaders.
+`DebugDraw3D` is a reusable in-scene 3D debug drawing node for Godot 4.x. It renders transient draw commands through `MultiMeshInstance3D` nodes and shaders.
 
 ## Requirements
 
-- Godot 4.7
+- Godot 4.x
 
 ## Installation
 
